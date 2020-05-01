@@ -8,7 +8,6 @@
 
 using namespace std;
 
-
 int main(){
 
     //obtain key from first line of file key.txt
@@ -34,7 +33,4 @@ int main(){
     req.setOpt(url);
     req.setOpt(hdr);
     req.perform();
-
-
-
 }
