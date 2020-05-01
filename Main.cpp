@@ -14,7 +14,7 @@ int main(){
     //obtain key from first line of file key.txt
     fstream keyHandle;
     string key;
-    keyHandle.open("key");
+    keyHandle.open("Key");
     keyHandle >> key;
     
     //cleanup and request 
