@@ -6,10 +6,12 @@
 
 class RequestHandler {
     const std::string token;
-    const std::string url; 
+    const std::string base_url; 
 
-    RequestHandler (const std::string& _url, const std::string& _token) : 
-        url(_url), token (_token)
+    curlpp::Cleanup cleanup;
+    curlpp::Easy handler;
+    RequestHandler (const std::string& _base_url, const std::string& _token) : 
+        base_url(_base_url), token (_token)
     {
         //initalize request handler
     }
@@ -18,8 +20,8 @@ class RequestHandler {
     {
         //get the specified url and return a JSON response
     }
+    //remember to reset the handle after every function
 
-    
 
     
 };
