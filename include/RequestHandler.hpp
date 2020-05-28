@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string.h>
 #include <list>
+#include "HttpObject.hpp"
 #include <curlpp/cURLpp.hpp>
 #include <curlpp/Easy.hpp>
 #include <curlpp/Options.hpp>
@@ -30,21 +31,24 @@ class RequestHandler {
             handler.setOpt(new cURLpp::Options::Header(int(include_header)));
             handler.setOpt(new cURLpp::Options::NoBody(int(!include_body)));
         }
-        std::string GetRequest (const std::string& url)
+        HttpObject GetRequest (const std::string& url)
         {
             std::stringstream httpresponse; 
             std::string auth_header = "Authorization: Bearer ";
             auth_header.append(token);
             std::list<std::string> headers {auth_header};
+            
             SetUrl(url);
             IncludeContent(true,true);
+
             handler.setOpt(new cURLpp::Options::HttpHeader (headers));
             handler.setOpt(new cURLpp::Options::WriteStream (&httpresponse));
 
             handler.perform();
             handler.reset();
 
-            return httpresponse.str();
+            HttpObject output (httpresponse.str());
+            return output;
         }
         
 
