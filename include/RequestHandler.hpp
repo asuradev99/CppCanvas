@@ -8,7 +8,6 @@
 #include <curlpp/Options.hpp>
 #include <sstream>
 
-
 class RequestHandler {
     private: 
         std::string token;
