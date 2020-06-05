@@ -1,7 +1,9 @@
 #pragma once 
 #include <iostream>
 #include <string> 
-
+#include "RequestHandler.hpp"
+#include "PageList.hpp"
+#include "Page.hpp"
 class Canvas 
 {
     private:
@@ -34,7 +36,11 @@ class Canvas
             base_url = _url;
         }
     //member functions 
-        void ListPages ()
+        PageList GetPagesList (const std::string& _url)
+        {
+            
+        }
+        Page GetPage (const std::string& _url)
         {
             
         }

@@ -16,7 +16,5 @@ int main ()
     RequestHandler requests("https://graniteschools.instructure.com/api/v1/",key); 
     response = requests.GetRequest("courses/1337964/pages");
     response.SeparateContents();
-    std::cout << "Header: " << std::endl << response.GetHeader();
-    //json j = parser.ParseStringtoJSON(buffer);
-    //std::cout << j << std::endl;
+    std::vector<std::string> result = response.ParseHttpHeader(response.GetRawHeader());
 }

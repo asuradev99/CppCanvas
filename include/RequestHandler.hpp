@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include <string.h>
+#include <string>
 #include <list>
 #include "HttpObject.hpp"
 #include <curlpp/cURLpp.hpp>
@@ -31,7 +31,7 @@ class RequestHandler {
             handler.setOpt(new cURLpp::Options::Header(int(include_header)));
             handler.setOpt(new cURLpp::Options::NoBody(int(!include_body)));
         }
-        HttpObject GetRequest (const std::string& url)
+        HttpObject GetRequest (const std::string& url, const bool _include_hdr, const bool _include_bdy)
         {
             std::stringstream httpresponse; 
             std::string auth_header = "Authorization: Bearer ";
@@ -39,7 +39,7 @@ class RequestHandler {
             std::list<std::string> headers {auth_header};
             
             SetUrl(url);
-            IncludeContent(true,true);
+            IncludeContent(_include_hdr,_include_bdy);
 
             handler.setOpt(new cURLpp::Options::HttpHeader (headers));
             handler.setOpt(new cURLpp::Options::WriteStream (&httpresponse));
