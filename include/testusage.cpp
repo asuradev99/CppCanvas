@@ -1,6 +1,5 @@
-#include "RequestHandler.hpp"
-#include "RequestParser.hpp"
-#include "HttpObject.hpp"
+
+#include "Canvas.hpp"
 #include <fstream>
 int main () 
 {
@@ -8,13 +7,11 @@ int main ()
     //obtain key from first line of file key.txt
     std::fstream keyHandle;
     std::string key;
-    HttpObject response;
-    RequestParser parser;
     keyHandle.open("key.txt");
     keyHandle >> key;
     std::cout << key << std::endl;
-    RequestHandler requests("https://graniteschools.instructure.com/api/v1/",key); 
-    response = requests.GetRequest("courses/1337964/pages");
-    response.SeparateContents();
-    std::vector<std::string> result = response.ParseHttpHeader(response.GetRawHeader());
+    std::string url = "https://graniteschools.instructure.com/api/v1/";
+    //RequestHandler requests("https://graniteschools.instructure.com/api/v1/",key); 
+    Canvas canvas (key,url);
+    canvas.GetPage(std::string ("courses/1337964/pages/aug-26-slash-27"));
 }
