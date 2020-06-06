@@ -28,7 +28,6 @@ class HttpObject
             std::vector<std::string> temp;
             while (sub != std::string::npos)
             {
-                
                 temp.emplace_back (_raw_header.substr(0,sub));
                 _raw_header.erase (0,sub + 2);
                 sub = _raw_header.find("\r\n");
@@ -60,15 +59,15 @@ class HttpObject
             fmt_header = ParseHttpHeader(raw_header);
         }
         
-        std::string GetRawContents ()
+        std::string GetRawContents () const 
         {
             return raw_contents;
         }
-        std::string GetRawHeader ()
+        std::string GetRawHeader () const
         {
             return raw_header;
         }
-        std::string GetRawBody () 
+        std::string GetRawBody () const
         {
             return raw_body;
         }

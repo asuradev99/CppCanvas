@@ -2,9 +2,13 @@
 #include <iostream>
 #include <string>
 #include <map>
+#include <json.hpp>
+#include "HttpObject.hpp"
+
+typedef nlohmann::json  json;
 
 class Page {
-    private:
+    public:
         std::string url, 
                     title, 
                     created_at, 
@@ -18,7 +22,14 @@ class Page {
                     lock_explanation;
         std::string raw_body;
         std::map <std::string, std::string> fmt_header;
-    public:
+        json fmt_body;
+        Page (const HttpObject& http) :
+            fmt_header (http.fmt_header), raw_body (http.GetRawBody()) 
+        {
+            fmt_body = json::parse (raw_body);
+            std::cout << fmt_body;
+        }
+
         
 
 };

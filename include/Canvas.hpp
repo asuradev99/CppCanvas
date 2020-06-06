@@ -23,12 +23,12 @@ class Canvas
         {
             
         }
-        void GetPage (const std::string& _url)
+        Page GetPage (const std::string& _url)
         {
             RequestHandler requests (base_url, token);
             HttpObject response = requests.GetRequest(_url, true, true);
-            
-            
+            Page response_page (response);
+            return response_page;
         }
         
 };

@@ -1,5 +1,5 @@
-
 #include "Canvas.hpp"
+
 #include <fstream>
 int main () 
 {
@@ -13,5 +13,5 @@ int main ()
     std::string url = "https://graniteschools.instructure.com/api/v1/";
     //RequestHandler requests("https://graniteschools.instructure.com/api/v1/",key); 
     Canvas canvas (key,url);
-    canvas.GetPage(std::string ("courses/1337964/pages/aug-26-slash-27"));
+    Page page = canvas.GetPage(std::string ("courses/1337964/pages/aug-26-slash-27"));
 }
