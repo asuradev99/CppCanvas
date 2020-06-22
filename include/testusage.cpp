@@ -1,6 +1,4 @@
 #include "Canvas.hpp"
-
-#include <fstream>
 int main (int argc, char* argv[]) 
 {
     std::cout << argc << '\n';
