@@ -27,9 +27,13 @@ class Page {
             fmt_header (http.fmt_header), raw_body (http.GetRawBody()) 
         {
             fmt_body = json::parse (raw_body);
+            for (auto x : fmt_header) {
+                std::cout << x.second << "\n";
+            }
             std::cout << fmt_body;
         }
-
         
-
+};
+struct PageOptions {
+     
 };
