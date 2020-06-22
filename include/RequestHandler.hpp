@@ -8,6 +8,17 @@
 #include <curlpp/Options.hpp>
 #include <sstream>
 
+struct RequestOptions {
+    std::string url; 
+    bool include_hdr;
+    bool include_body; 
+    RequestOptions (const std::string& _url, const bool& hdr, const bool& body) :
+    url(_url), include_hdr(hdr), include_body(body) 
+    {
+        
+    }
+    RequestOptions () {}
+};
 class RequestHandler {
     private: 
         std::string token;
@@ -30,15 +41,15 @@ class RequestHandler {
             handler.setOpt(new cURLpp::Options::Header(int(include_header)));
             handler.setOpt(new cURLpp::Options::NoBody(int(!include_body)));
         }
-        HttpObject GetRequest (const std::string& url, const bool _include_hdr, const bool _include_bdy)
+        HttpObject GetRequest (const RequestOptions& options)
         {
             std::stringstream httpresponse; 
             std::string auth_header = "Authorization: Bearer ";
             auth_header.append(token);
             std::list<std::string> headers {auth_header};
             
-            SetUrl(url);
-            IncludeContent(_include_hdr,_include_bdy);
+            SetUrl(options.url);
+            IncludeContent(options.include_hdr,options.include_body);
 
             handler.setOpt(new cURLpp::Options::HttpHeader (headers));
             handler.setOpt(new cURLpp::Options::WriteStream (&httpresponse));
@@ -48,7 +59,6 @@ class RequestHandler {
 
             HttpObject output (httpresponse.str());
             return output;
-        }
-        
+        }  
 
 };
