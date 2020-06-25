@@ -60,5 +60,8 @@ class RequestHandler {
             HttpObject output (httpresponse.str());
             return output;
         }  
+        HttpObject PostRequest () {
+            
+        }
 
 };
