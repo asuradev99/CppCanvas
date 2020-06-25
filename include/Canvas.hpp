@@ -22,10 +22,10 @@ class Canvas
 
         }
     //member functions
-        PageList GetPagesList (const std::string& _url)
-        {
-
-        }
+        //PageList GetPagesList (const std::string& _url)
+        //{
+        //    return 
+        //}
         Page GetPage (const std::string& _url)
         {
             RequestHandler requests (base_url, token);
