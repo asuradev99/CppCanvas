@@ -18,10 +18,6 @@ namespace CppCanvas {
     class Page : public CanvasElement{
         using CanvasElement::CanvasElement;
         public: 
-            PageRevision GetLatestRevision () 
-            {
-                
-            }
     };
 
 }
