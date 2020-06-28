@@ -5,15 +5,23 @@
 #include <json.hpp>
 #include "HttpObject.hpp"
 #include "CanvasExceptions.hpp"
-#include "ParsedElement.hpp"
-
+#include "CanvasElement.hpp"
+#include "RequestHandler.hpp"
+#include "Attributes.hpp"
 typedef nlohmann::json  json;
+namespace CppCanvas {
+    class PageRevision : public CanvasElement {
+        using CanvasElement::CanvasElement;
+    };
 
 
-class Page : public ParsedElement{
-    using ParsedElement::ParsedElement;
-};
-class PageRevision {
-    public: 
+    class Page : public CanvasElement{
+        using CanvasElement::CanvasElement;
+        public: 
+            PageRevision GetLatestRevision () 
+            {
+                
+            }
+    };
 
-};
+}
