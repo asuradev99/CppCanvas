@@ -3,7 +3,8 @@
 # Canvas for C++
 A simple header-only C++ wrapper API for the Canvas LMS REST API. 
 Please note this project is still a work-in-progress.
-# Dependencies 
-These will be included in the dependencies folder for your convenience:
--nlohmann's json library: https://github.com/nlohmann/json
--curlpp: 
+## Dependencies 
+Here are the libraries used in this project These will be included in the dependencies folder for your convenience:
+* nlohmann's JSON library: https://github.com/nlohmann/json
+* curlpp c++ wrapper: https://github.com/jpbarrette/curlpp (make sure you have libcURL and Curl installed) 
+## Getting Started
