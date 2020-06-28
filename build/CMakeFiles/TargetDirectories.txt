@@ -1,0 +1,3 @@
+/home/esuresh/Programming/CppProjects/CanvasApi/build/CMakeFiles/rebuild_cache.dir
+/home/esuresh/Programming/CppProjects/CanvasApi/build/CMakeFiles/edit_cache.dir
+/home/esuresh/Programming/CppProjects/CanvasApi/build/CMakeFiles/simple_page.dir
