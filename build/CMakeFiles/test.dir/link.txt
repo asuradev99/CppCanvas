@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/test.dir/examples/testusage.cpp.o  -o test  -lcurl -lcurlpp 
