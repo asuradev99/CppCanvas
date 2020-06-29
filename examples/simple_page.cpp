@@ -23,4 +23,5 @@ int main (int argc, char* argv[])
 
     //get a json attribute specific to the page
     std::cout << page.get(CppCanvas::Attributes::Page::title) << "\n";
+    
 }

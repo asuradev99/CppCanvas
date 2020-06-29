@@ -18,11 +18,7 @@ namespace CppCanvas {
         //overloaded constructors
             Canvas (const CppCanvas::Session& _session) :
             session (_session), token(_session.token), base_url(_session.url) {}
-            //member functions
-            //PageList GetPagesList (const std::string& _url)
-            //{
-            //    return 
-            //}
+
             CppCanvas::Page GetPage (const std::string& _url)
             {
                 CppCanvas::RequestHandler requests (session);

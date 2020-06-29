@@ -9,6 +9,7 @@
 #include "RequestHandler.hpp"
 #include "Attributes.hpp"
 typedef nlohmann::json  json;
+
 namespace CppCanvas {
     class PageRevision : public CanvasElement {
         using CanvasElement::CanvasElement;
