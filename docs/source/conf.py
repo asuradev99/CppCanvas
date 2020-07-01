@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
+html_static_path = []
 project = 'CppCanvas'
 copyright = '2020, Ethan A. Suresh'
 author = 'Ethan A. Suresh'

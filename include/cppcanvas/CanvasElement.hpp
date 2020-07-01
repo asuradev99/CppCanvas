@@ -39,14 +39,14 @@ namespace CppCanvas {
 		return os;
 	}
 	class CanvasElement{
-		private:
-
+		protected:
 			std::map <std::string, std::string> parsed_header;
 			std::string raw_body;
+			Session session;
 			json json_body;
 		public: 
-			CanvasElement (const CppCanvas::HttpObject& http) :
-				parsed_header (http.fmt_header), raw_body (http.GetRawBody()) 
+			CanvasElement (const HttpObject& http, const Session& _session) :
+				parsed_header (http.fmt_header), raw_body (http.GetRawBody()), session(_session) 
 			{
 				try {
 					
@@ -57,7 +57,7 @@ namespace CppCanvas {
 					std::cout << json_body << "\n";
 					if (json_body.contains("message")) 
 					{
-						throw CppCanvas::api_errors::PageNotFound();
+						throw api_errors::PageNotFound();
 						return;
 					}
 
@@ -66,7 +66,7 @@ namespace CppCanvas {
 				}
 				
 			}  
-			json_return_type get (const CppCanvas::Attribute& attr) {
+			json_return_type get (const Attribute& attr) {
 				
 				try {
 					json_element elem;
@@ -74,17 +74,17 @@ namespace CppCanvas {
 						if (json_body.contains(attr.key)) {
 							elem = json_body[attr.key];
 						} else {
-							throw CppCanvas::json_errors::BadJsonKey();
+							throw json_errors::BadJsonKey();
 						}
 					} else {
 						if (json_body.contains (attr.container)) {
 							if (json_body[attr.container].contains(attr.key)) {
 								elem = json_body[attr.container][attr.key];
 							} else {
-								throw CppCanvas::json_errors::BadJsonKey();
+								throw json_errors::BadJsonKey();
 							}
 						} else {
-							throw CppCanvas::json_errors::BadJsonKey();
+							throw json_errors::BadJsonKey();
 						}
 					}
 					if (elem.is_null()) {

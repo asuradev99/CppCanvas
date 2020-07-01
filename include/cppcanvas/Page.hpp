@@ -19,6 +19,14 @@ namespace CppCanvas {
     class Page : public CanvasElement{
         using CanvasElement::CanvasElement;
         public: 
+            void Edit ()
+            {
+                RequestHandler requests (session);
+                PostOptions options ("courses/2120073/pages/sample-page",{"wiki_page[body]=asn+AsdasASD"},true, true);
+                requests.PostRequest(options);
+            }    
     };
+
+     
 
 }
