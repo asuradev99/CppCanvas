@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceCppCanvas_1_1api__errors" kind="namespace" language="C++">
+    <compoundname>CppCanvas::api_errors</compoundname>
+    <innerclass refid="structCppCanvas_1_1api__errors_1_1BadRequest" prot="public">CppCanvas::api_errors::BadRequest</innerclass>
+    <innerclass refid="structCppCanvas_1_1api__errors_1_1PageNotFound" prot="public">CppCanvas::api_errors::PageNotFound</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

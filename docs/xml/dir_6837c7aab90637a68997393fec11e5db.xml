@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_6837c7aab90637a68997393fec11e5db" kind="dir">
+    <compoundname>/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas</compoundname>
+    <innerfile refid="Attributes_8hpp">Attributes.hpp</innerfile>
+    <innerfile refid="Canvas_8hpp">Canvas.hpp</innerfile>
+    <innerfile refid="CanvasElement_8hpp">CanvasElement.hpp</innerfile>
+    <innerfile refid="CanvasExceptions_8hpp">CanvasExceptions.hpp</innerfile>
+    <innerfile refid="HttpObject_8hpp">HttpObject.hpp</innerfile>
+    <innerfile refid="Page_8hpp">Page.hpp</innerfile>
+    <innerfile refid="PageList_8hpp">PageList.hpp</innerfile>
+    <innerfile refid="RequestHandler_8hpp">RequestHandler.hpp</innerfile>
+    <innerfile refid="Session_8hpp">Session.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/"/>
+  </compounddef>
+</doxygen>

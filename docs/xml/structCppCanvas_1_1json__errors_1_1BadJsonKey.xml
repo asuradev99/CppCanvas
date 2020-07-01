@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structCppCanvas_1_1json__errors_1_1BadJsonKey" kind="struct" language="C++" prot="public">
+    <compoundname>CppCanvas::json_errors::BadJsonKey</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structCppCanvas_1_1json__errors_1_1BadJsonKey_1afa59796ca3b312ca8607dd4490fa92e7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* CppCanvas::json_errors::BadJsonKey::what</definition>
+        <argsstring>() const</argsstring>
+        <name>what</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" line="24" column="24" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>exception</label>
+      </node>
+      <node id="1">
+        <label>CppCanvas::json_errors::BadJsonKey</label>
+        <link refid="structCppCanvas_1_1json__errors_1_1BadJsonKey"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>exception</label>
+      </node>
+      <node id="1">
+        <label>CppCanvas::json_errors::BadJsonKey</label>
+        <link refid="structCppCanvas_1_1json__errors_1_1BadJsonKey"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" line="23" column="47" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" bodystart="23" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structCppCanvas_1_1json__errors_1_1BadJsonKey_1afa59796ca3b312ca8607dd4490fa92e7" prot="public" virt="non-virtual"><scope>CppCanvas::json_errors::BadJsonKey</scope><name>what</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

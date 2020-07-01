@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structCppCanvas_1_1Session" kind="struct" language="C++" prot="public">
+    <compoundname>CppCanvas::Session</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCppCanvas_1_1Session_1afec751cd8d2f911256c6d06ecb0c4852" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::Session::token</definition>
+        <argsstring></argsstring>
+        <name>token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Session.hpp" line="6" column="21" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Session.hpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCppCanvas_1_1Session_1a0e228919dbe37792953f9bb4e3f427cc" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::Session::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Session.hpp" line="6" column="27" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Session.hpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structCppCanvas_1_1Session_1a12486dae649a99dc1a91b8873a59dc19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CppCanvas::Session::Session</definition>
+        <argsstring>(std::string _token, std::string _url)</argsstring>
+        <name>Session</name>
+        <param>
+          <type>std::string</type>
+          <declname>_token</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Session.hpp" line="7" column="9" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Session.hpp" bodystart="7" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Session.hpp" line="5" column="18" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Session.hpp" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="structCppCanvas_1_1Session_1a12486dae649a99dc1a91b8873a59dc19" prot="public" virt="non-virtual"><scope>CppCanvas::Session</scope><name>Session</name></member>
+      <member refid="structCppCanvas_1_1Session_1afec751cd8d2f911256c6d06ecb0c4852" prot="public" virt="non-virtual"><scope>CppCanvas::Session</scope><name>token</name></member>
+      <member refid="structCppCanvas_1_1Session_1a0e228919dbe37792953f9bb4e3f427cc" prot="public" virt="non-virtual"><scope>CppCanvas::Session</scope><name>url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

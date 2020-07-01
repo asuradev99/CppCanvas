@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structCppCanvas_1_1RequestOptions" kind="struct" language="C++" prot="public">
+    <compoundname>CppCanvas::RequestOptions</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCppCanvas_1_1RequestOptions_1ac4dded8bc0856d1664534f9ccf22b1ec" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::RequestOptions::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="14" column="21" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCppCanvas_1_1RequestOptions_1aad3bc498593a8e64755cf24cdfed2861" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CppCanvas::RequestOptions::include_hdr</definition>
+        <argsstring></argsstring>
+        <name>include_hdr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="15" column="14" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCppCanvas_1_1RequestOptions_1a9688b7c97318dfcf279504f2e250f217" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CppCanvas::RequestOptions::include_body</definition>
+        <argsstring></argsstring>
+        <name>include_body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="16" column="14" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structCppCanvas_1_1RequestOptions_1a25a299b63573b37432ac7c58cb50aee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CppCanvas::RequestOptions::RequestOptions</definition>
+        <argsstring>(const std::string &amp;_url, const bool &amp;hdr, const bool &amp;body)</argsstring>
+        <name>RequestOptions</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_url</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>hdr</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="17" column="9" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structCppCanvas_1_1RequestOptions_1a2f73f232e169ddf29079aa60c91fe19d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CppCanvas::RequestOptions::RequestOptions</definition>
+        <argsstring>()</argsstring>
+        <name>RequestOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="22" column="9" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="13" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="13" bodyend="23"/>
+    <listofallmembers>
+      <member refid="structCppCanvas_1_1RequestOptions_1a9688b7c97318dfcf279504f2e250f217" prot="public" virt="non-virtual"><scope>CppCanvas::RequestOptions</scope><name>include_body</name></member>
+      <member refid="structCppCanvas_1_1RequestOptions_1aad3bc498593a8e64755cf24cdfed2861" prot="public" virt="non-virtual"><scope>CppCanvas::RequestOptions</scope><name>include_hdr</name></member>
+      <member refid="structCppCanvas_1_1RequestOptions_1a25a299b63573b37432ac7c58cb50aee6" prot="public" virt="non-virtual"><scope>CppCanvas::RequestOptions</scope><name>RequestOptions</name></member>
+      <member refid="structCppCanvas_1_1RequestOptions_1a2f73f232e169ddf29079aa60c91fe19d" prot="public" virt="non-virtual"><scope>CppCanvas::RequestOptions</scope><name>RequestOptions</name></member>
+      <member refid="structCppCanvas_1_1RequestOptions_1ac4dded8bc0856d1664534f9ccf22b1ec" prot="public" virt="non-virtual"><scope>CppCanvas::RequestOptions</scope><name>url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceCppCanvas_1_1Attributes_1_1PageRevision" kind="namespace" language="C++">
+    <compoundname>CppCanvas::Attributes::PageRevision</compoundname>
+    <innernamespace refid="namespaceCppCanvas_1_1Attributes_1_1PageRevision_1_1edited__by">CppCanvas::Attributes::PageRevision::edited_by</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="Attributes_8hpp_1ab64777159097deecc3fec1978d8e08f6" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::PageRevision::revision_id(&quot;revision_id&quot;)</definition>
+        <argsstring>(&quot;revision_id&quot;)</argsstring>
+        <name>revision_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="34" column="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="Attributes_8hpp_1ac3a172a9e71cc9ea14d9285ea68b5a04" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::PageRevision::updated_at(&quot;updated_at&quot;)</definition>
+        <argsstring>(&quot;updated_at&quot;)</argsstring>
+        <name>updated_at</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="35" column="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="Attributes_8hpp_1ae900bbb4b0625fa1653fbf531c8a6df4" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::PageRevision::latest(&quot;latest&quot;)</definition>
+        <argsstring>(&quot;latest&quot;)</argsstring>
+        <name>latest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="36" column="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="Attributes_8hpp_1a25c63de367be6197b6f9a9b74d9c23b7" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::PageRevision::url(&quot;url&quot;)</definition>
+        <argsstring>(&quot;url&quot;)</argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="37" column="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="Attributes_8hpp_1a057bc4bb8c4add7f79ab043ba1cc9426" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::PageRevision::title(&quot;title&quot;)</definition>
+        <argsstring>(&quot;title&quot;)</argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="38" column="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="Attributes_8hpp_1a1f61e04690299b9cd3eea3f79952b827" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::PageRevision::body(&quot;body&quot;)</definition>
+        <argsstring>(&quot;body&quot;)</argsstring>
+        <name>body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="39" column="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="33" column="30"/>
+  </compounddef>
+</doxygen>

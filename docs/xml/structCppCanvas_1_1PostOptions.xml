@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structCppCanvas_1_1PostOptions" kind="struct" language="C++" prot="public">
+    <compoundname>CppCanvas::PostOptions</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCppCanvas_1_1PostOptions_1ad075e9e07193e0c598756b9a6b61b6ec" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::PostOptions::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="25" column="21" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCppCanvas_1_1PostOptions_1a089de53694fcea4c7ecee817963ecccf" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::PostOptions::opt</definition>
+        <argsstring></argsstring>
+        <name>opt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="25" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCppCanvas_1_1PostOptions_1a1aed0740731e265a23275e638ce2474d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CppCanvas::PostOptions::include_hdr</definition>
+        <argsstring></argsstring>
+        <name>include_hdr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="26" column="14" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCppCanvas_1_1PostOptions_1a2709da9848af74155766fb277f08fd97" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CppCanvas::PostOptions::include_body</definition>
+        <argsstring></argsstring>
+        <name>include_body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="27" column="14" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCppCanvas_1_1PostOptions_1ac4fe75d4f8dd1322ce2f3ecfd0fd4b7a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CppCanvas::PostOptions::PUT</definition>
+        <argsstring></argsstring>
+        <name>PUT</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="28" column="14" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structCppCanvas_1_1PostOptions_1a4db40cf62f0cea080f5b2b23c545ca10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CppCanvas::PostOptions::PostOptions</definition>
+        <argsstring>(const std::string &amp;_url, const std::vector&lt; std::string &gt; _params, const bool &amp;hdr, const bool &amp;body)</argsstring>
+        <name>PostOptions</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_url</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt;</type>
+          <declname>_params</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>hdr</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="29" column="9" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="29" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="24" column="22" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="24" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structCppCanvas_1_1PostOptions_1a2709da9848af74155766fb277f08fd97" prot="public" virt="non-virtual"><scope>CppCanvas::PostOptions</scope><name>include_body</name></member>
+      <member refid="structCppCanvas_1_1PostOptions_1a1aed0740731e265a23275e638ce2474d" prot="public" virt="non-virtual"><scope>CppCanvas::PostOptions</scope><name>include_hdr</name></member>
+      <member refid="structCppCanvas_1_1PostOptions_1a089de53694fcea4c7ecee817963ecccf" prot="public" virt="non-virtual"><scope>CppCanvas::PostOptions</scope><name>opt</name></member>
+      <member refid="structCppCanvas_1_1PostOptions_1a4db40cf62f0cea080f5b2b23c545ca10" prot="public" virt="non-virtual"><scope>CppCanvas::PostOptions</scope><name>PostOptions</name></member>
+      <member refid="structCppCanvas_1_1PostOptions_1ac4fe75d4f8dd1322ce2f3ecfd0fd4b7a" prot="public" virt="non-virtual"><scope>CppCanvas::PostOptions</scope><name>PUT</name></member>
+      <member refid="structCppCanvas_1_1PostOptions_1ad075e9e07193e0c598756b9a6b61b6ec" prot="public" virt="non-virtual"><scope>CppCanvas::PostOptions</scope><name>url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

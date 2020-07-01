@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="structCppCanvas_1_1Attribute" kind="struct"><name>CppCanvas::Attribute</name>
+    <member refid="structCppCanvas_1_1Attribute_1a673fb703e58c1d71031eb8aa08e510b8" kind="variable"><name>container</name></member>
+    <member refid="structCppCanvas_1_1Attribute_1a6c21de7adfb4517154190d6a202862b1" kind="variable"><name>key</name></member>
+    <member refid="structCppCanvas_1_1Attribute_1acd1eaf45dc4380da747ed0084ffd0387" kind="function"><name>Attribute</name></member>
+    <member refid="structCppCanvas_1_1Attribute_1abc56d20ac94e354f5818366be6674dc3" kind="function"><name>Attribute</name></member>
+  </compound>
+  <compound refid="structCppCanvas_1_1json__errors_1_1BadJsonKey" kind="struct"><name>CppCanvas::json_errors::BadJsonKey</name>
+    <member refid="structCppCanvas_1_1json__errors_1_1BadJsonKey_1afa59796ca3b312ca8607dd4490fa92e7" kind="function"><name>what</name></member>
+  </compound>
+  <compound refid="structCppCanvas_1_1api__errors_1_1BadRequest" kind="struct"><name>CppCanvas::api_errors::BadRequest</name>
+    <member refid="structCppCanvas_1_1api__errors_1_1BadRequest_1ae25d8ac78e52ec4c9f856bbd61f81cf2" kind="function"><name>what</name></member>
+  </compound>
+  <compound refid="classCppCanvas_1_1Canvas" kind="class"><name>CppCanvas::Canvas</name>
+    <member refid="classCppCanvas_1_1Canvas_1aa9e1283e1a3aaac427129b16f782335e" kind="variable"><name>token</name></member>
+    <member refid="classCppCanvas_1_1Canvas_1a6abbac13c936e4a286f3e5509421f5e3" kind="variable"><name>base_url</name></member>
+    <member refid="classCppCanvas_1_1Canvas_1a1ba0c0f83e6f6a3354000a32eaa0d1a4" kind="variable"><name>session</name></member>
+    <member refid="classCppCanvas_1_1Canvas_1a49aa340c8b4a5078f29ee7f8e40be5e2" kind="function"><name>Canvas</name></member>
+    <member refid="classCppCanvas_1_1Canvas_1ad8a57496f2a50f5b509a6b71bf86b8b9" kind="function"><name>GetPage</name></member>
+  </compound>
+  <compound refid="classCppCanvas_1_1CanvasElement" kind="class"><name>CppCanvas::CanvasElement</name>
+    <member refid="classCppCanvas_1_1CanvasElement_1a5776f4265c427b34ee4ba947c9f6dd46" kind="variable"><name>parsed_header</name></member>
+    <member refid="classCppCanvas_1_1CanvasElement_1a7dd2114689dd43d0684d9a0bf6fb99a5" kind="variable"><name>raw_body</name></member>
+    <member refid="classCppCanvas_1_1CanvasElement_1a60ce66eb4b8fd5194c6e089e65895775" kind="variable"><name>session</name></member>
+    <member refid="classCppCanvas_1_1CanvasElement_1af63a48136dc7889c14ae9b5988c9edb1" kind="variable"><name>json_body</name></member>
+    <member refid="classCppCanvas_1_1CanvasElement_1a164d4aefa58a98b12fa976c65cfaea75" kind="function"><name>CanvasElement</name></member>
+    <member refid="classCppCanvas_1_1CanvasElement_1afa713c84e8bdb820dda02ee70dbb8635" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classCppCanvas_1_1HttpObject" kind="class"><name>CppCanvas::HttpObject</name>
+    <member refid="classCppCanvas_1_1HttpObject_1a54f2c358c409d8cc1cab19f960850ac5" kind="variable"><name>raw_contents</name></member>
+    <member refid="classCppCanvas_1_1HttpObject_1ae4349e6bcc8a4773cfad8ae5d15acadb" kind="variable"><name>raw_header</name></member>
+    <member refid="classCppCanvas_1_1HttpObject_1a3a08840a1f73043f62ef4d6b8cb912b6" kind="variable"><name>raw_body</name></member>
+    <member refid="classCppCanvas_1_1HttpObject_1a6f25b9b91ca3abb55cb625691a818c9b" kind="variable"><name>fmt_header</name></member>
+    <member refid="classCppCanvas_1_1HttpObject_1a528a6e4ef59a2a37ab079bc4d68c29cf" kind="function"><name>ParseHttpHeader</name></member>
+    <member refid="classCppCanvas_1_1HttpObject_1aaddb2ab2af6ad6ffc2fd2763f67728f2" kind="function"><name>HttpObject</name></member>
+    <member refid="classCppCanvas_1_1HttpObject_1a71eac59946550950059e88d1d2508edc" kind="function"><name>HttpObject</name></member>
+    <member refid="classCppCanvas_1_1HttpObject_1a2878f55a32539b41ca4e4bccab9b0eca" kind="function"><name>GetRawContents</name></member>
+    <member refid="classCppCanvas_1_1HttpObject_1af1a8ea848087f700ceddd3259b59ad76" kind="function"><name>GetRawHeader</name></member>
+    <member refid="classCppCanvas_1_1HttpObject_1aad6687c9b784487a3d3f340941a3f6ee" kind="function"><name>GetRawBody</name></member>
+  </compound>
+  <compound refid="structCppCanvas_1_1json__return__type" kind="struct"><name>CppCanvas::json_return_type</name>
+    <member refid="structCppCanvas_1_1json__return__type_1a271baabf6e6e41111043cc67d7d3df6f" kind="variable"><name>elem</name></member>
+    <member refid="structCppCanvas_1_1json__return__type_1a166b60d1d5859f92ca0ebb43de0a8051" kind="function"><name>operator T</name></member>
+    <member refid="structCppCanvas_1_1json__return__type_1a8b166fdfc3fd5d3e5128952ba1d65116" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classCppCanvas_1_1Page" kind="class"><name>CppCanvas::Page</name>
+    <member refid="classCppCanvas_1_1Page_1a64c30824ef365b4f5600c886f4f8aab5" kind="function"><name>Edit</name></member>
+    <member refid="classCppCanvas_1_1Page_1a164d4aefa58a98b12fa976c65cfaea75" kind="function"><name>CanvasElement</name></member>
+  </compound>
+  <compound refid="classPageList" kind="class"><name>PageList</name>
+  </compound>
+  <compound refid="structCppCanvas_1_1api__errors_1_1PageNotFound" kind="struct"><name>CppCanvas::api_errors::PageNotFound</name>
+    <member refid="structCppCanvas_1_1api__errors_1_1PageNotFound_1a0120ccb5a33f58ebeb1753c099ac1e16" kind="function"><name>what</name></member>
+  </compound>
+  <compound refid="classCppCanvas_1_1PageRevision" kind="class"><name>CppCanvas::PageRevision</name>
+    <member refid="classCppCanvas_1_1PageRevision_1a164d4aefa58a98b12fa976c65cfaea75" kind="function"><name>CanvasElement</name></member>
+  </compound>
+  <compound refid="structCppCanvas_1_1PostOptions" kind="struct"><name>CppCanvas::PostOptions</name>
+    <member refid="structCppCanvas_1_1PostOptions_1ad075e9e07193e0c598756b9a6b61b6ec" kind="variable"><name>url</name></member>
+    <member refid="structCppCanvas_1_1PostOptions_1a089de53694fcea4c7ecee817963ecccf" kind="variable"><name>opt</name></member>
+    <member refid="structCppCanvas_1_1PostOptions_1a1aed0740731e265a23275e638ce2474d" kind="variable"><name>include_hdr</name></member>
+    <member refid="structCppCanvas_1_1PostOptions_1a2709da9848af74155766fb277f08fd97" kind="variable"><name>include_body</name></member>
+    <member refid="structCppCanvas_1_1PostOptions_1ac4fe75d4f8dd1322ce2f3ecfd0fd4b7a" kind="variable"><name>PUT</name></member>
+    <member refid="structCppCanvas_1_1PostOptions_1a4db40cf62f0cea080f5b2b23c545ca10" kind="function"><name>PostOptions</name></member>
+  </compound>
+  <compound refid="classCppCanvas_1_1RequestHandler" kind="class"><name>CppCanvas::RequestHandler</name>
+    <member refid="classCppCanvas_1_1RequestHandler_1a06d6be1de8021ecbc4a264c98fdb6a5a" kind="variable"><name>token</name></member>
+    <member refid="classCppCanvas_1_1RequestHandler_1a3517f3eeca0ce5c8ed78a0e8ce69465e" kind="variable"><name>responsebuffer</name></member>
+    <member refid="classCppCanvas_1_1RequestHandler_1a63faf3afa377e065b61f1134fe765240" kind="variable"><name>base_url</name></member>
+    <member refid="classCppCanvas_1_1RequestHandler_1a2087e047f6abbddb632a842613a18d06" kind="variable"><name>cleanup</name></member>
+    <member refid="classCppCanvas_1_1RequestHandler_1ae2b721d8a7ce5f97fa1be4711afd67eb" kind="variable"><name>handler</name></member>
+    <member refid="classCppCanvas_1_1RequestHandler_1a9f4bc92132963367fc61ccdf25830da7" kind="function"><name>RequestHandler</name></member>
+    <member refid="classCppCanvas_1_1RequestHandler_1a9dbe06baf3072620e6101dfd301df084" kind="function"><name>SetUrl</name></member>
+    <member refid="classCppCanvas_1_1RequestHandler_1afdd2ee2fafb864c264c7f65126157f20" kind="function"><name>IncludeContent</name></member>
+    <member refid="classCppCanvas_1_1RequestHandler_1a06a926515dab25a0394a91be59d24634" kind="function"><name>GetRequest</name></member>
+    <member refid="classCppCanvas_1_1RequestHandler_1a03b7e047856076c3fbcfc5969cd2e38b" kind="function"><name>PostRequest</name></member>
+  </compound>
+  <compound refid="structCppCanvas_1_1RequestOptions" kind="struct"><name>CppCanvas::RequestOptions</name>
+    <member refid="structCppCanvas_1_1RequestOptions_1ac4dded8bc0856d1664534f9ccf22b1ec" kind="variable"><name>url</name></member>
+    <member refid="structCppCanvas_1_1RequestOptions_1aad3bc498593a8e64755cf24cdfed2861" kind="variable"><name>include_hdr</name></member>
+    <member refid="structCppCanvas_1_1RequestOptions_1a9688b7c97318dfcf279504f2e250f217" kind="variable"><name>include_body</name></member>
+    <member refid="structCppCanvas_1_1RequestOptions_1a25a299b63573b37432ac7c58cb50aee6" kind="function"><name>RequestOptions</name></member>
+    <member refid="structCppCanvas_1_1RequestOptions_1a2f73f232e169ddf29079aa60c91fe19d" kind="function"><name>RequestOptions</name></member>
+  </compound>
+  <compound refid="structCppCanvas_1_1Session" kind="struct"><name>CppCanvas::Session</name>
+    <member refid="structCppCanvas_1_1Session_1afec751cd8d2f911256c6d06ecb0c4852" kind="variable"><name>token</name></member>
+    <member refid="structCppCanvas_1_1Session_1a0e228919dbe37792953f9bb4e3f427cc" kind="variable"><name>url</name></member>
+    <member refid="structCppCanvas_1_1Session_1a12486dae649a99dc1a91b8873a59dc19" kind="function"><name>Session</name></member>
+  </compound>
+  <compound refid="namespaceCppCanvas" kind="namespace"><name>CppCanvas</name>
+    <member refid="CanvasElement_8hpp_1ad826f5482cb13863beebb906c260ffc6" kind="function"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="namespaceCppCanvas_1_1api__errors" kind="namespace"><name>CppCanvas::api_errors</name>
+  </compound>
+  <compound refid="namespaceCppCanvas_1_1Attributes" kind="namespace"><name>CppCanvas::Attributes</name>
+  </compound>
+  <compound refid="namespaceCppCanvas_1_1Attributes_1_1Page" kind="namespace"><name>CppCanvas::Attributes::Page</name>
+    <member refid="Attributes_8hpp_1a4f9c166241d5eb6d3da48e1c3b9bf23b" kind="variable"><name>url</name></member>
+    <member refid="Attributes_8hpp_1a9c3e9fe5fa59eb3567d0b2974b5b23f5" kind="variable"><name>id</name></member>
+    <member refid="Attributes_8hpp_1ad525dc9b17c2d475f5e9bc865fac5ada" kind="variable"><name>title</name></member>
+    <member refid="Attributes_8hpp_1a2c0c3842e662226f20b733c924da0dea" kind="variable"><name>body</name></member>
+    <member refid="Attributes_8hpp_1aa0d032b053eb2d1cf74b9baa5b3285eb" kind="variable"><name>created_at</name></member>
+    <member refid="Attributes_8hpp_1a06288def39db48f00b142aec9d056d54" kind="variable"><name>updated_at</name></member>
+    <member refid="Attributes_8hpp_1a498ec0c71e000ec2cf39b3ff6471e4d1" kind="variable"><name>editing_roles</name></member>
+    <member refid="Attributes_8hpp_1ac3e03008aa9ef4327d3c9afe3fc8d04c" kind="variable"><name>published</name></member>
+    <member refid="Attributes_8hpp_1a3d66434fba5964a3358e36840c756937" kind="variable"><name>front_page</name></member>
+    <member refid="Attributes_8hpp_1a675bacc519b9e602b4bc92285f377784" kind="variable"><name>locked_for_user</name></member>
+    <member refid="Attributes_8hpp_1a965e2b60672fa52240eadf12ff8bdaf2" kind="variable"><name>lock_info</name></member>
+    <member refid="Attributes_8hpp_1a761da21c77d9c8382d71043091012faf" kind="variable"><name>lock_explanation</name></member>
+  </compound>
+  <compound refid="namespaceCppCanvas_1_1Attributes_1_1Page_1_1last__edited__by" kind="namespace"><name>CppCanvas::Attributes::Page::last_edited_by</name>
+    <member refid="Attributes_8hpp_1acea660855ceda5e20844439f4d227c24" kind="variable"><name>avatar_image_url</name></member>
+    <member refid="Attributes_8hpp_1ad1e29a0cccedb0e94e53db99f6957fcc" kind="variable"><name>display_name</name></member>
+    <member refid="Attributes_8hpp_1ae3d63ba54cb66fa6c48738639e84a1e9" kind="variable"><name>html_url</name></member>
+    <member refid="Attributes_8hpp_1a008eb1226cc796d72a9c4f5ab1489d69" kind="variable"><name>id</name></member>
+    <member refid="Attributes_8hpp_1a8a67e684feee1796d1a446b196d77d87" kind="variable"><name>pronouns</name></member>
+  </compound>
+  <compound refid="namespaceCppCanvas_1_1Attributes_1_1PageRevision" kind="namespace"><name>CppCanvas::Attributes::PageRevision</name>
+    <member refid="Attributes_8hpp_1ab64777159097deecc3fec1978d8e08f6" kind="variable"><name>revision_id</name></member>
+    <member refid="Attributes_8hpp_1ac3a172a9e71cc9ea14d9285ea68b5a04" kind="variable"><name>updated_at</name></member>
+    <member refid="Attributes_8hpp_1ae900bbb4b0625fa1653fbf531c8a6df4" kind="variable"><name>latest</name></member>
+    <member refid="Attributes_8hpp_1a25c63de367be6197b6f9a9b74d9c23b7" kind="variable"><name>url</name></member>
+    <member refid="Attributes_8hpp_1a057bc4bb8c4add7f79ab043ba1cc9426" kind="variable"><name>title</name></member>
+    <member refid="Attributes_8hpp_1a1f61e04690299b9cd3eea3f79952b827" kind="variable"><name>body</name></member>
+  </compound>
+  <compound refid="namespaceCppCanvas_1_1Attributes_1_1PageRevision_1_1edited__by" kind="namespace"><name>CppCanvas::Attributes::PageRevision::edited_by</name>
+    <member refid="Attributes_8hpp_1ae1444a8c43295610b428ad2d209eb7d6" kind="variable"><name>avatar_image_url</name></member>
+    <member refid="Attributes_8hpp_1a705f1738e7305f381e479a419bb511ce" kind="variable"><name>display_name</name></member>
+    <member refid="Attributes_8hpp_1af55f6c0bd54b30d9846ac3a34f2dbfd4" kind="variable"><name>html_url</name></member>
+    <member refid="Attributes_8hpp_1aca7fca0022d9b82ac7acdbd930a56504" kind="variable"><name>id</name></member>
+    <member refid="Attributes_8hpp_1af89e1e0f591f434cdf5b15b0bd0f5438" kind="variable"><name>pronouns</name></member>
+  </compound>
+  <compound refid="namespaceCppCanvas_1_1json__errors" kind="namespace"><name>CppCanvas::json_errors</name>
+  </compound>
+  <compound refid="Attributes_8hpp" kind="file"><name>Attributes.hpp</name>
+  </compound>
+  <compound refid="Canvas_8hpp" kind="file"><name>Canvas.hpp</name>
+  </compound>
+  <compound refid="CanvasElement_8hpp" kind="file"><name>CanvasElement.hpp</name>
+    <member refid="CanvasElement_8hpp_1a2fec365798124ac10ddd238c0b075720" kind="typedef"><name>json</name></member>
+    <member refid="CanvasElement_8hpp_1a982981b89176f3df3cf60172a63dda28" kind="typedef"><name>json_element</name></member>
+  </compound>
+  <compound refid="CanvasExceptions_8hpp" kind="file"><name>CanvasExceptions.hpp</name>
+  </compound>
+  <compound refid="HttpObject_8hpp" kind="file"><name>HttpObject.hpp</name>
+  </compound>
+  <compound refid="key_8txt" kind="file"><name>key.txt</name>
+  </compound>
+  <compound refid="Page_8hpp" kind="file"><name>Page.hpp</name>
+    <member refid="Page_8hpp_1a2fec365798124ac10ddd238c0b075720" kind="typedef"><name>json</name></member>
+  </compound>
+  <compound refid="PageList_8hpp" kind="file"><name>PageList.hpp</name>
+  </compound>
+  <compound refid="RequestHandler_8hpp" kind="file"><name>RequestHandler.hpp</name>
+  </compound>
+  <compound refid="Session_8hpp" kind="file"><name>Session.hpp</name>
+  </compound>
+  <compound refid="dir_6837c7aab90637a68997393fec11e5db" kind="dir"><name>/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/esuresh/Programming/Cpp/CanvasApi/include</name>
+  </compound>
+</doxygenindex>

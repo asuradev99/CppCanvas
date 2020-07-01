@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classCppCanvas_1_1HttpObject" kind="class" language="C++" prot="public">
+    <compoundname>CppCanvas::HttpObject</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCppCanvas_1_1HttpObject_1a54f2c358c409d8cc1cab19f960850ac5" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::HttpObject::raw_contents</definition>
+        <argsstring></argsstring>
+        <name>raw_contents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="12" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCppCanvas_1_1HttpObject_1ae4349e6bcc8a4773cfad8ae5d15acadb" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::HttpObject::raw_header</definition>
+        <argsstring></argsstring>
+        <name>raw_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="13" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCppCanvas_1_1HttpObject_1a3a08840a1f73043f62ef4d6b8cb912b6" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::HttpObject::raw_body</definition>
+        <argsstring></argsstring>
+        <name>raw_body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="14" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCppCanvas_1_1HttpObject_1a6f25b9b91ca3abb55cb625691a818c9b" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, std::string &gt;</type>
+        <definition>std::map&lt;std::string, std::string&gt; CppCanvas::HttpObject::fmt_header</definition>
+        <argsstring></argsstring>
+        <name>fmt_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="17" column="23" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCppCanvas_1_1HttpObject_1a528a6e4ef59a2a37ab079bc4d68c29cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::map&lt; std::string, std::string &gt;</type>
+        <definition>std::map&lt;std::string, std::string&gt; CppCanvas::HttpObject::ParseHttpHeader</definition>
+        <argsstring>(std::string _raw_header)</argsstring>
+        <name>ParseHttpHeader</name>
+        <param>
+          <type>std::string</type>
+          <declname>_raw_header</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="18" column="22" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="18" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1HttpObject_1aaddb2ab2af6ad6ffc2fd2763f67728f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CppCanvas::HttpObject::HttpObject</definition>
+        <argsstring>()</argsstring>
+        <name>HttpObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="53" column="13" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1HttpObject_1a71eac59946550950059e88d1d2508edc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CppCanvas::HttpObject::HttpObject</definition>
+        <argsstring>(const std::string &amp;_raw_contents)</argsstring>
+        <name>HttpObject</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_raw_contents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="54" column="13" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1HttpObject_1a2878f55a32539b41ca4e4bccab9b0eca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::HttpObject::GetRawContents</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRawContents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="60" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1HttpObject_1af1a8ea848087f700ceddd3259b59ad76" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::HttpObject::GetRawHeader</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRawHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="64" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1HttpObject_1aad6687c9b784487a3d3f340941a3f6ee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::HttpObject::GetRawBody</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRawBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="68" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" line="10" column="1" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/HttpObject.hpp" bodystart="9" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classCppCanvas_1_1HttpObject_1a6f25b9b91ca3abb55cb625691a818c9b" prot="public" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>fmt_header</name></member>
+      <member refid="classCppCanvas_1_1HttpObject_1aad6687c9b784487a3d3f340941a3f6ee" prot="public" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>GetRawBody</name></member>
+      <member refid="classCppCanvas_1_1HttpObject_1a2878f55a32539b41ca4e4bccab9b0eca" prot="public" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>GetRawContents</name></member>
+      <member refid="classCppCanvas_1_1HttpObject_1af1a8ea848087f700ceddd3259b59ad76" prot="public" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>GetRawHeader</name></member>
+      <member refid="classCppCanvas_1_1HttpObject_1aaddb2ab2af6ad6ffc2fd2763f67728f2" prot="public" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>HttpObject</name></member>
+      <member refid="classCppCanvas_1_1HttpObject_1a71eac59946550950059e88d1d2508edc" prot="public" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>HttpObject</name></member>
+      <member refid="classCppCanvas_1_1HttpObject_1a528a6e4ef59a2a37ab079bc4d68c29cf" prot="public" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>ParseHttpHeader</name></member>
+      <member refid="classCppCanvas_1_1HttpObject_1a3a08840a1f73043f62ef4d6b8cb912b6" prot="private" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>raw_body</name></member>
+      <member refid="classCppCanvas_1_1HttpObject_1a54f2c358c409d8cc1cab19f960850ac5" prot="private" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>raw_contents</name></member>
+      <member refid="classCppCanvas_1_1HttpObject_1ae4349e6bcc8a4773cfad8ae5d15acadb" prot="private" virt="non-virtual"><scope>CppCanvas::HttpObject</scope><name>raw_header</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

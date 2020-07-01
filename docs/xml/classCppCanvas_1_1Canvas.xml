@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classCppCanvas_1_1Canvas" kind="class" language="C++" prot="public">
+    <compoundname>CppCanvas::Canvas</compoundname>
+    <includes refid="Canvas_8hpp" local="no">Canvas.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCppCanvas_1_1Canvas_1aa9e1283e1a3aaac427129b16f782335e" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::Canvas::token</definition>
+        <argsstring></argsstring>
+        <name>token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" line="17" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCppCanvas_1_1Canvas_1a6abbac13c936e4a286f3e5509421f5e3" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::Canvas::base_url</definition>
+        <argsstring></argsstring>
+        <name>base_url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" line="18" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCppCanvas_1_1Canvas_1a1ba0c0f83e6f6a3354000a32eaa0d1a4" prot="private" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Session" kindref="compound">CppCanvas::Session</ref></type>
+        <definition>CppCanvas::Session CppCanvas::Canvas::session</definition>
+        <argsstring></argsstring>
+        <name>session</name>
+        <initializer>{&quot;&quot;, &quot;&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" line="19" column="32" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCppCanvas_1_1Canvas_1a49aa340c8b4a5078f29ee7f8e40be5e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CppCanvas::Canvas::Canvas</definition>
+        <argsstring>(std::string _token, std::string _url)</argsstring>
+        <name>Canvas</name>
+        <param>
+          <type>std::string</type>
+          <declname>_token</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>_url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" line="23" column="13" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1Canvas_1ad8a57496f2a50f5b509a6b71bf86b8b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classCppCanvas_1_1Page" kindref="compound">CppCanvas::Page</ref></type>
+        <definition>CppCanvas::Page CppCanvas::Canvas::GetPage</definition>
+        <argsstring>(const std::string &amp;_url)</argsstring>
+        <name>GetPage</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_url</declname>
+        </param>
+        <briefdescription>
+<para>this is a test comment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" line="32" column="29" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" bodystart="32" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>this is a test comment </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" line="15" column="1" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Canvas.hpp" bodystart="14" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classCppCanvas_1_1Canvas_1a6abbac13c936e4a286f3e5509421f5e3" prot="private" virt="non-virtual"><scope>CppCanvas::Canvas</scope><name>base_url</name></member>
+      <member refid="classCppCanvas_1_1Canvas_1a49aa340c8b4a5078f29ee7f8e40be5e2" prot="public" virt="non-virtual"><scope>CppCanvas::Canvas</scope><name>Canvas</name></member>
+      <member refid="classCppCanvas_1_1Canvas_1ad8a57496f2a50f5b509a6b71bf86b8b9" prot="public" virt="non-virtual"><scope>CppCanvas::Canvas</scope><name>GetPage</name></member>
+      <member refid="classCppCanvas_1_1Canvas_1a1ba0c0f83e6f6a3354000a32eaa0d1a4" prot="private" virt="non-virtual"><scope>CppCanvas::Canvas</scope><name>session</name></member>
+      <member refid="classCppCanvas_1_1Canvas_1aa9e1283e1a3aaac427129b16f782335e" prot="private" virt="non-virtual"><scope>CppCanvas::Canvas</scope><name>token</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classCppCanvas_1_1RequestHandler" kind="class" language="C++" prot="public">
+    <compoundname>CppCanvas::RequestHandler</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCppCanvas_1_1RequestHandler_1a06d6be1de8021ecbc4a264c98fdb6a5a" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::RequestHandler::token</definition>
+        <argsstring></argsstring>
+        <name>token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="40" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCppCanvas_1_1RequestHandler_1a3517f3eeca0ce5c8ed78a0e8ce69465e" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::RequestHandler::responsebuffer</definition>
+        <argsstring></argsstring>
+        <name>responsebuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="41" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCppCanvas_1_1RequestHandler_1a63faf3afa377e065b61f1134fe765240" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CppCanvas::RequestHandler::base_url</definition>
+        <argsstring></argsstring>
+        <name>base_url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="42" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCppCanvas_1_1RequestHandler_1a2087e047f6abbddb632a842613a18d06" prot="private" static="no" mutable="no">
+        <type>cURLpp::Cleanup</type>
+        <definition>cURLpp::Cleanup CppCanvas::RequestHandler::cleanup</definition>
+        <argsstring></argsstring>
+        <name>cleanup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="43" column="29" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCppCanvas_1_1RequestHandler_1ae2b721d8a7ce5f97fa1be4711afd67eb" prot="private" static="no" mutable="no">
+        <type>cURLpp::Easy</type>
+        <definition>cURLpp::Easy CppCanvas::RequestHandler::handler</definition>
+        <argsstring></argsstring>
+        <name>handler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="44" column="26" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCppCanvas_1_1RequestHandler_1a9f4bc92132963367fc61ccdf25830da7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CppCanvas::RequestHandler::RequestHandler</definition>
+        <argsstring>(const Session &amp;session)</argsstring>
+        <name>RequestHandler</name>
+        <param>
+          <type>const <ref refid="structCppCanvas_1_1Session" kindref="compound">Session</ref> &amp;</type>
+          <declname>session</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="46" column="13" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="46" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1RequestHandler_1a9dbe06baf3072620e6101dfd301df084" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CppCanvas::RequestHandler::SetUrl</definition>
+        <argsstring>(const std::string &amp;url)</argsstring>
+        <name>SetUrl</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="48" column="18" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1RequestHandler_1afdd2ee2fafb864c264c7f65126157f20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CppCanvas::RequestHandler::IncludeContent</definition>
+        <argsstring>(const bool &amp;include_header, const bool &amp;include_body)</argsstring>
+        <name>IncludeContent</name>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>include_header</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>include_body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="54" column="18" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1RequestHandler_1a06a926515dab25a0394a91be59d24634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classCppCanvas_1_1HttpObject" kindref="compound">CppCanvas::HttpObject</ref></type>
+        <definition>CppCanvas::HttpObject CppCanvas::RequestHandler::GetRequest</definition>
+        <argsstring>(const RequestOptions &amp;options)</argsstring>
+        <name>GetRequest</name>
+        <param>
+          <type>const <ref refid="structCppCanvas_1_1RequestOptions" kindref="compound">RequestOptions</ref> &amp;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="59" column="35" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="59" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classCppCanvas_1_1RequestHandler_1a03b7e047856076c3fbcfc5969cd2e38b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CppCanvas::RequestHandler::PostRequest</definition>
+        <argsstring>(const PostOptions &amp;options)</argsstring>
+        <name>PostRequest</name>
+        <param>
+          <type>const <ref refid="structCppCanvas_1_1PostOptions" kindref="compound">PostOptions</ref> &amp;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="78" column="18" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="78" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" line="38" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/RequestHandler.hpp" bodystart="38" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classCppCanvas_1_1RequestHandler_1a63faf3afa377e065b61f1134fe765240" prot="private" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>base_url</name></member>
+      <member refid="classCppCanvas_1_1RequestHandler_1a2087e047f6abbddb632a842613a18d06" prot="private" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>cleanup</name></member>
+      <member refid="classCppCanvas_1_1RequestHandler_1a06a926515dab25a0394a91be59d24634" prot="public" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>GetRequest</name></member>
+      <member refid="classCppCanvas_1_1RequestHandler_1ae2b721d8a7ce5f97fa1be4711afd67eb" prot="private" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>handler</name></member>
+      <member refid="classCppCanvas_1_1RequestHandler_1afdd2ee2fafb864c264c7f65126157f20" prot="public" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>IncludeContent</name></member>
+      <member refid="classCppCanvas_1_1RequestHandler_1a03b7e047856076c3fbcfc5969cd2e38b" prot="public" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>PostRequest</name></member>
+      <member refid="classCppCanvas_1_1RequestHandler_1a9f4bc92132963367fc61ccdf25830da7" prot="public" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>RequestHandler</name></member>
+      <member refid="classCppCanvas_1_1RequestHandler_1a3517f3eeca0ce5c8ed78a0e8ce69465e" prot="private" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>responsebuffer</name></member>
+      <member refid="classCppCanvas_1_1RequestHandler_1a9dbe06baf3072620e6101dfd301df084" prot="public" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>SetUrl</name></member>
+      <member refid="classCppCanvas_1_1RequestHandler_1a06d6be1de8021ecbc4a264c98fdb6a5a" prot="private" virt="non-virtual"><scope>CppCanvas::RequestHandler</scope><name>token</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

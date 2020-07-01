@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structCppCanvas_1_1api__errors_1_1PageNotFound" kind="struct" language="C++" prot="public">
+    <compoundname>CppCanvas::api_errors::PageNotFound</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structCppCanvas_1_1api__errors_1_1PageNotFound_1a0120ccb5a33f58ebeb1753c099ac1e16" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* CppCanvas::api_errors::PageNotFound::what</definition>
+        <argsstring>() const</argsstring>
+        <name>what</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" line="8" column="25" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CppCanvas::api_errors::PageNotFound</label>
+        <link refid="structCppCanvas_1_1api__errors_1_1PageNotFound"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CppCanvas::api_errors::PageNotFound</label>
+        <link refid="structCppCanvas_1_1api__errors_1_1PageNotFound"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" line="7" column="49" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="structCppCanvas_1_1api__errors_1_1PageNotFound_1a0120ccb5a33f58ebeb1753c099ac1e16" prot="public" virt="non-virtual"><scope>CppCanvas::api_errors::PageNotFound</scope><name>what</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

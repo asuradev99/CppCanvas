@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceCppCanvas_1_1Attributes_1_1Page_1_1last__edited__by" kind="namespace" language="C++">
+    <compoundname>CppCanvas::Attributes::Page::last_edited_by</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="Attributes_8hpp_1acea660855ceda5e20844439f4d227c24" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::Page::last_edited_by::avatar_image_url(&quot;last_edited_by&quot;, &quot;avatar_image_url&quot;)</definition>
+        <argsstring>(&quot;last_edited_by&quot;, &quot;avatar_image_url&quot;)</argsstring>
+        <name>avatar_image_url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="26" column="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="Attributes_8hpp_1ad1e29a0cccedb0e94e53db99f6957fcc" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::Page::last_edited_by::display_name(&quot;last_edited_by&quot;,&quot;display_name&quot;)</definition>
+        <argsstring>(&quot;last_edited_by&quot;,&quot;display_name&quot;)</argsstring>
+        <name>display_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="27" column="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="Attributes_8hpp_1ae3d63ba54cb66fa6c48738639e84a1e9" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::Page::last_edited_by::html_url(&quot;last_edited_by&quot;,&quot;html_url&quot;)</definition>
+        <argsstring>(&quot;last_edited_by&quot;,&quot;html_url&quot;)</argsstring>
+        <name>html_url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="28" column="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="Attributes_8hpp_1a008eb1226cc796d72a9c4f5ab1489d69" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::Page::last_edited_by::id(&quot;last_edited_by&quot;,&quot;id&quot;)</definition>
+        <argsstring>(&quot;last_edited_by&quot;,&quot;id&quot;)</argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="29" column="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="Attributes_8hpp_1a8a67e684feee1796d1a446b196d77d87" prot="public" static="no" mutable="no">
+        <type><ref refid="structCppCanvas_1_1Attribute" kindref="compound">Attribute</ref></type>
+        <definition>Attribute CppCanvas::Attributes::Page::last_edited_by::pronouns(&quot;last_edited_by&quot;,&quot;pronouns&quot;)</definition>
+        <argsstring>(&quot;last_edited_by&quot;,&quot;pronouns&quot;)</argsstring>
+        <name>pronouns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="30" column="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="25" column="36"/>
+  </compounddef>
+</doxygen>

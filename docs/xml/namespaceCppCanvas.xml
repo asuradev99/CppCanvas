@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceCppCanvas" kind="namespace" language="C++">
+    <compoundname>CppCanvas</compoundname>
+    <innerclass refid="structCppCanvas_1_1Attribute" prot="public">CppCanvas::Attribute</innerclass>
+    <innerclass refid="classCppCanvas_1_1Canvas" prot="public">CppCanvas::Canvas</innerclass>
+    <innerclass refid="classCppCanvas_1_1CanvasElement" prot="public">CppCanvas::CanvasElement</innerclass>
+    <innerclass refid="classCppCanvas_1_1HttpObject" prot="public">CppCanvas::HttpObject</innerclass>
+    <innerclass refid="structCppCanvas_1_1json__return__type" prot="public">CppCanvas::json_return_type</innerclass>
+    <innerclass refid="classCppCanvas_1_1Page" prot="public">CppCanvas::Page</innerclass>
+    <innerclass refid="classCppCanvas_1_1PageRevision" prot="public">CppCanvas::PageRevision</innerclass>
+    <innerclass refid="structCppCanvas_1_1PostOptions" prot="public">CppCanvas::PostOptions</innerclass>
+    <innerclass refid="classCppCanvas_1_1RequestHandler" prot="public">CppCanvas::RequestHandler</innerclass>
+    <innerclass refid="structCppCanvas_1_1RequestOptions" prot="public">CppCanvas::RequestOptions</innerclass>
+    <innerclass refid="structCppCanvas_1_1Session" prot="public">CppCanvas::Session</innerclass>
+    <innernamespace refid="namespaceCppCanvas_1_1api__errors">CppCanvas::api_errors</innernamespace>
+    <innernamespace refid="namespaceCppCanvas_1_1Attributes">CppCanvas::Attributes</innernamespace>
+    <innernamespace refid="namespaceCppCanvas_1_1json__errors">CppCanvas::json_errors</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="CanvasElement_8hpp_1ad826f5482cb13863beebb906c260ffc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; CppCanvas::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const json_return_type &amp;val)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structCppCanvas_1_1json__return__type" kindref="compound">json_return_type</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasElement.hpp" line="27" column="1" bodyfile="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasElement.hpp" bodystart="27" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/Attributes.hpp" line="3" column="19"/>
+  </compounddef>
+</doxygen>

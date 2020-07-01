@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceCppCanvas_1_1json__errors" kind="namespace" language="C++">
+    <compoundname>CppCanvas::json_errors</compoundname>
+    <innerclass refid="structCppCanvas_1_1json__errors_1_1BadJsonKey" prot="public">CppCanvas::json_errors::BadJsonKey</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esuresh/Programming/Cpp/CanvasApi/include/cppcanvas/CanvasExceptions.hpp" line="22" column="1"/>
+  </compounddef>
+</doxygen>
