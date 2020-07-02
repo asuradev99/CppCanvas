@@ -6,8 +6,8 @@
 A simple header-only C++ wrapper API for the Canvas LMS REST API. 
 Please note this project is still a work-in-progress.  
 
-For more information about Canvas's API, please visit: https://canvas.instructure.com/doc/api/  
-Official documentation: https://cppcanvas.readthedocs.io/en/latest/
+* For more information about Canvas's API, please visit: https://canvas.instructure.com/doc/api/  
+* Official documentation: https://cppcanvas.readthedocs.io/en/latest/
 
 ## Dependencies 
 Here are the libraries used in this project. These will be included in the dependencies folder for your convenience:
