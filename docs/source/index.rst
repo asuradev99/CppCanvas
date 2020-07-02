@@ -5,7 +5,11 @@
 
 Welcome to CppCanvas's documentation!
 ======================================
-This documentation is incomplete and currently under development. 
+
+Getting Started 
+===============
+
+
 
 .. toctree::
    :maxdepth: 2
