@@ -20,13 +20,21 @@ namespace CppCanvas {
 
         public:
         //overloaded constructors
+            /**
+             * @brief Construct a new Canvas object which takes in the API token and the base URL in the form of std::strings
+             * 
+             * @param _token 
+             * @param _url 
+             */
             Canvas (std::string _token, std::string _url) :
             token(_token), base_url(_url) {
                 session.token = token;
                 session.url = base_url;
             }
             /**
-            * @brief this is a test comment
+            * @brief Returns a CppCanvas::Page object with parameters from the canvas page at the specified URL
+            * 
+            * @param _url
             * 
             */
             CppCanvas::Page GetPage (const std::string& _url)
